@@ -66,13 +66,13 @@ The table below outlines the key functions defined in the ERC-4626, with an expl
 
 **Deposit vs Mint**:
 
-- deposit(): You specify how many assets you want to deposit, and the vault calculates how many shares to give you
-- mint(): You specify how many shares you want to receive, and the vault calculates how many assets you need to deposit
+- **deposit()**: You specify how many assets you want to deposit, and the vault calculates how many shares to give you.
+- **mint()**: You specify how many shares you want to receive, and the vault calculates how many assets you need to deposit.
 
 **Withdraw vs Redeem**:
 
-- withdraw(): You specify how many assets you want to receive, and the vault calculates how many shares to burn
-- redeem(): You specify how many shares you want to burn, and the vault calculates how many assets to give you
+- **withdraw()**: You specify how many assets you want to receive, and the vault calculates how many shares to burn.
+- **redeem()**: You specify how many shares you want to burn, and the vault calculates how many assets to give you.
 
 ## ERC-4626 Events
 
